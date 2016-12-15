@@ -35,3 +35,5 @@ Even though ISO 27001 is a "_standard_", _annoyingly_ it is **not _free_**, inst
 + Implementation Guide: http://www.bsigroup.com/Documents/iso-27001/resources/iso-iec-27001-implementation-guide-SG-web.pdf
 + "_Free_" PDF? A bit of searching online and you will find: https://trofisecurity.com/assets/img/iso27001-2013.pdf <br />
 (_best to Google if the link is broken when you read this..._)
++ Security (Lack of) at Uber:
+https://www.revealnews.org/article/uber-said-it-protects-you-from-spying-security-sources-say-otherwise/
