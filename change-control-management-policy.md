@@ -23,6 +23,8 @@ it can proceed to prioritisation.
 ## 2. Confirmation of Need & Requirement from Stakeholders
 
 Once the change/feature/bug has been identified and described (_in step 1_)
+we require _confirmation_ from at least one _other_ stakeholder.
+This is to ensure that non-essential changes cannot be made on a whim.
 
 
 ## 3. Work Prioritisation

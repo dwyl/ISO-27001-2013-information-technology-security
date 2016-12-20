@@ -1,15 +1,11 @@
 # Information Security Policies <small>`Version 1.0 - December 2016`</small>
 
 The _purpose_ of this document is to _clearly define_ our Information Technology
-Security Policies, kept _current_ with relevant legislation and ensure they are
-available to all relevant stakeholders.
+Security Policies, ensure they are kept _current_ with relevant legislation
+and ensure they are available to all relevant stakeholders.
 
 > If you notice a typo/error/ommission or area for improvement/clarification, <br />
 please notify us by opening an issue on GitHub.
-
-## Contents
-
-
 
 
 ## Roles and Responsibilities (ISO27001:2013-A.6)
@@ -21,25 +17,27 @@ The following roles have been identified in our organization.
 The Management/Leadership team is _ultimately responsible_ for the information
 security in the organization; it is not "_outsourced_" to anyone else.
 
-_Day-to-day responsibility_ for checking that process/procedures for information
-security are followed/met belongs to the `data controller`.
 
 ### Data Controller
 
-The Data Controller is the person in the organization who is registered/named
-with the **Information Commissioner's Office** (_UK_) and responsible for
-ensuring that
+_Day-to-day responsibility_ for checking that process/procedures for information
+security are followed/met belongs to the `The Data Controller` ("**DC**").
+
+DC is the person in the organization who is registered/named
+with the **Information Commissioner's Office** (_UK_) and
+responsible for ensuring that
 [***Data protection principles***](https://ico.org.uk/for-organisations/guide-to-data-protection/data-protection-principles/)
 are followed.
 
 ### Application Developers
 
-Application developers are responsible for _implementing_ the code and systems
-which have the protection of people's personal data at heart.
+The Application Developer(s) ("**Devs**") are responsible for _implementing_ the code and systems
+which have the protection of people's personal data at _heart_.
 
-Additionally developers should make _reasonable_ efforts to keep their
+Additionally **Devs** should make _reasonable_ efforts to keep their
 knowledge and skill _current_ and keep track of security reports/advisories
 which are relevant to the code which has been included/used in the application.
+
 
 #### Developer Security Checklist
 
@@ -52,7 +50,7 @@ stored by the application/database (_e.g: if you don't need Social Security numb
 a malicious user gaining access to these mission-critical systems.
 
 Under _no circumstances_ should a developer merge her/his own change/feature/bugfix.
-
+Segregation of duties should exist wherever _practical_ to ensure accountability.
 
 ### Quality Assurance
 
@@ -76,29 +74,76 @@ roles are being _alternated_.
 _All_ the components of our application are run on the Amazon Web Services (AWS)
 "Cloud" Computing Platform-as-a-Service (PaaS).
 
-Access to the "_Production_" AWS account is restricted to the Data Controller.
+#### Restricted Access
+
+Access to the "_Production_" AWS account is restricted to the Data Controller (DC).
+The DC grants access to the DevOps person as required to perform their tasks
+(_e.g: updating the certificate on the server cluster_) and once the task is complete
+access is revoked.
+
+A full audit trail of actions performed in the AWS Console is recorded
+in case an involuntary (_or malicious_) negative action is performed.
 
 For detail on AWS's compliance with relevant security standards see:
 https://aws.amazon.com/compliance/soc-faqs/
 
-### Desktops & Laptops
+### Desktops
 
-### Mobile Devices
+No desktop computers are used in the organization.
+All devices are portable (laptops, phones & tablets) see below.
+
+### Laptops, Tablets & Mobile Devices
+
+We operate a "Bring Your Own Device" (BYOD) scheme with our employees/contractors.
+
+We require that all devices:
++ use full-drive encryption to protect any browser history data stored on the device.
++ never leave the device unattended in a public space
++ never connect to insecure Wifi networks
++ screen lock is enabled when ever the user is away from the keyboard _in the **office**_
+to prevent unauthorized access to critical systems.
++ at the end of the useful life of the device is _must_ be reset to factory settings
+
+#### Theft or Loss
+
+All members of staff and contractors are required to notify the Data Controller
+immediately in the event of loss or theft of any device.
+
+In the event of loss or theft the passwords for all accounts should be reset
+as a precautionary measure and the incident should be reported to the policy
+(_or other relevant authority_).
+
+
 
 ### Removable Media
 
+Removable media is not permitted in the organisation.
+Where files need to be shared they are done through Google Drive
+which has good access controls, audit logs and encrypted transmission.
 
 ## Access Control
 
-### Password Policy
+### Password/Passphrase Policy
+
+We have the following password/passphrase policy:
++ Length: 8 characters
++ Complexity:
+  + at least one Upper case character
+  + at least one lower case character
+  + at least one Number
+  + at least one special character e.g. punctuation or symbols (!@?)
 
 
+## Security Awareness Training
 
-## Security Awareness Training (_all employees and contractors_)
+_all employees and contractors_ are required to watch the following
+security awareness training videos:
 
-
-
-
++ Malware: https://youtu.be/cKlRc1_f5NY
++ Phishing: https://youtu.be/WpaLmeHTp3I
++ WiFi Safety: https://youtu.be/T5HCy3udooo
++ OWASP Top 10 - Cross-Site-Scripting (XSS) Explained: https://youtu.be/ksM-xXeDUNs
+(_the most common vulnerability in web applications_)
 
 ## Policy Review
 

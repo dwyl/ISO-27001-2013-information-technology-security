@@ -15,6 +15,9 @@ The [**ISO 27001:2013 _Standard_**](http://www.iso.org/iso/iso27001) defines req
 It's meant to _help_ people (_in organizations_)
 think about and implement "_controls_" which improve IT security.
 
+For comprehensive details see: http://www.iso27001security.com/html/27001.html
+
+
 ## _Who_?
 
 ***All people*** in the organization who have contact with Information Technology or data should be given training on IT security. There's no excuse for "_naivity_" or "_ignorance_".
