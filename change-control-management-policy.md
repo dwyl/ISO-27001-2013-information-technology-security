@@ -54,8 +54,10 @@ When code is deemed good approval is given.
 
 ## 6. Quality Assurance Review
 
-QA reviews the change and either requests changes or approves and merges.
+QA reviews the change and either requests changes or approves and merges into the `master` branch.
+
 
 ## 7. Release to Production
 
-Once all preceeding steps are complete
+Once all preceeding steps are complete, a member of the management team
+must sign off on the release (_usually in an email_) and the release is deployed to Production.
