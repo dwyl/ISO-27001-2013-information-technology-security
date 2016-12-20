@@ -164,6 +164,6 @@ e.g. a new piece of hardware or 3<sup>rd</sup> party service provider is
 being considered we will review the requirements of the policies contained
 herein and ensure compliance.
 
-Where an amendment is required it will _first_ be discussed in an "_issue_"
+Where an amendment is required it will _first_ be discussed in a Github "_issue_"
 - if a _formal_ meeting is required it will be scheduled - and the _outcome_
 of the discussion will be recorded/reflected in this policy document.

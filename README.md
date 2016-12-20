@@ -2,7 +2,7 @@
 
 ## _Why_?
 
-Security of people's data stored IT systems is _critical_ for _every_ organization.
+Security of people's data stored in IT systems is _critical_ for _every_ organization.
 
 ### Our _purpose_ for creating this repo
 
@@ -20,7 +20,7 @@ For comprehensive details see: http://www.iso27001security.com/html/27001.html
 
 ## _Who_?
 
-***All people*** in the organization who have contact with Information Technology or data should be given training on IT security. There's no excuse for "_naivity_" or "_ignorance_".
+***All people*** in the organization who have contact with Information Technology or data should be given training on IT security. There's no excuse for "_naivety_" or "_ignorance_".
 
 > ISO 27001 _Awareness Training_: https://youtu.be/kU7ffml7W3Y (_beginner-friendly/non-technical intro_)
 
