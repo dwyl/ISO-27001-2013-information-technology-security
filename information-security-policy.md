@@ -89,12 +89,11 @@ https://aws.amazon.com/compliance/soc-faqs/
 
 ### Desktops
 
-No desktop computers are used in the organization.
-All devices are portable (laptops, phones & tablets) see below.
+We have 3 desktop computers.
 
-### Laptops, Tablets & Mobile Devices
+### Desktops, Laptops, Tablets & Mobile Devices
 
-We operate a "Bring Your Own Device" (BYOD) scheme with our employees/contractors.
+The following applies to company owned and "Bring Your Own Device" (BYOD) equipment.
 
 We require that all devices:
 + use full-drive encryption to protect any browser history data stored on the device.
