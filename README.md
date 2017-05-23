@@ -48,7 +48,7 @@ http://www.iso27001security.com/html/27001.html
 or data should be given training on IT security. There's no excuse for "_naivety_"
 or "_ignorance_" and "_professional negligence_" with security will _not_ be _tollerated_.
 
-None of the "_conecpts_" are "_complicated_" if you break them down into simple steps.
+None of the "_concepts_" are "_complicated_" if you break them down into simple steps.
 
 
 > ISO 27001 _Awareness Training_: https://youtu.be/kU7ffml7W3Y
